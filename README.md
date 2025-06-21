@@ -23,7 +23,8 @@ if -clipboard -> `sudo apt install vim-gtk3`
 
 ```bach
 sudo apt install xclip
-
+```
+```bach
 xclip -sel c < input_file
 ```
 
