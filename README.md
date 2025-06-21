@@ -19,3 +19,11 @@ check in vim
 ```
 if -clipboard -> `sudo apt install vim-gtk3`
 
+## For reading from file directly in clipboard:
+
+```bach
+sudo apt install xclip
+
+xclip -sel c < input_file
+```
+
