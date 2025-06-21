@@ -12,3 +12,9 @@ Check whether inxi --full --verbosity=7 --filter --no-host gives you <No Bluetoo
 ```
 ---
 
+check in vim 
+```
+:version 
+```
+if -clipboard -> `sudo apt install vim-gtk3`
+
