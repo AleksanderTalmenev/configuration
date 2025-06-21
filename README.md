@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# configuration
-=======
+
 sudo apt install gnome-tweaks
 
 sudo apt install gnome-???
@@ -14,4 +12,3 @@ Check whether inxi --full --verbosity=7 --filter --no-host gives you <No Bluetoo
 ```
 ---
 
->>>>>>> ab21271 (Added readme)
