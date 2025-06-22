@@ -5,7 +5,7 @@ sudo apt install gnome-???
 
 ---
 
-In case when my bluetooth does not found on ASUS (Ubuntu):
+In case my Bluetooth is not found on ASUS (Ubuntu):
 
 ```
 Check whether inxi --full --verbosity=7 --filter --no-host gives you <No Bluetooth data found>. If so, try to turn off fastboot in BIOS, soft reboot the system and check it again. The problem is that, when fastboot is ON in BIOS, a system skips initialization of some devices to speed up boot, so Ubuntu can't see Bluetooth device.
@@ -21,10 +21,10 @@ if -clipboard -> `sudo apt install vim-gtk3`
 in vscode:
 ```
 Vim: Use System Clipboard
-Use system clipboard for unnamed register.
+Use the system clipboard for the unnamed register.
 ```
 
-## For reading from file directly in clipboard:
+## For reading from a file directly into the clipboard:
 
 ```bach
 sudo apt install xclip
@@ -34,13 +34,13 @@ xclip -sel c < input_file
 ```
 
 
-[Vim in obsidian](
+[Vim in Obsidian](
 https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Vim+users)
 
 ```bash
 xclip -sel c < input_file
 ```
-will copy the contents of `input_file` to clipboard. `xclip` requires installation. To install```
+will copy the contents of `input_file` to the clipboard. `xclip` requires installation. To install```
 ```bash
 sudo apt install xclip
 ```
@@ -50,13 +50,13 @@ How to switch from code to explorer and return back:
 ```
 Cntrl + Shift + E  
 ```
-How switch by suggestions in vscode:
+How to switch by suggestions in vscode:
 ```
 Cntrl + n
 Cntrl + p
 ```
 
-### How change hotkeys for switching between windows in vscode:
+### How to change hotkeys for switching between windows in VSCode:
 
 Press `Ctrl + Shift + P`
 
@@ -92,15 +92,19 @@ Return to desktop mode:
 ```
 Alt + F1
 ```
-### Show suggesions in vscode:
+### Show suggestions in vscode:
 
 ```
 Cntrl + Space
 ```
 # Chrome
-Another extension for suggesions ```
+Another extension for suggestions ```
 ```
 tridactyl
+```
+### Grep:
+```bash
+grep -r "pattern"
 ```
 		
 
