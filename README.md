@@ -18,6 +18,11 @@ check in vim
 :version 
 ```
 if -clipboard -> `sudo apt install vim-gtk3`
+in vscode:
+```
+Vim: Use System Clipboard
+Use system clipboard for unnamed register.
+```
 
 ## For reading from file directly in clipboard:
 
