@@ -68,16 +68,15 @@ Type Preferences: `Open Keyboard Shortcuts (JSON) and open it.
 Add these entries to remap (example):
 
 ```json
-
 [
-  {
-    "key": "ctrl+shift+k",
-    "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "ctrl+shift+j",
-    "command": "workbench.action.previousEditor"
-  }
+    {
+        "key": "alt+h",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.nextEditor"
+    }
 ]
 ```
 
