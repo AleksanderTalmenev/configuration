@@ -76,6 +76,18 @@ Add these entries to remap (example):
     {
         "key": "alt+l",
         "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "space+e",
+        "command": "workbench.view.explorer",
+    },
+    {
+        "key": "space+s",
+        "command": "workbench.view.search",
+    },
+    {
+        "key": "space+q",
+        "command": "workbench.action.closeActiveEditor",
     }
 ]
 ```
