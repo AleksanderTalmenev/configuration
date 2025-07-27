@@ -51,5 +51,10 @@
     {
         "key": "alt+q",
         "command": "workbench.action.closeActiveEditor",
-    }
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+    },
+    
 ]
