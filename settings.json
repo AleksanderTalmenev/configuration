@@ -1,14 +1,32 @@
 # Open Command Palette: Ctrl+Shift+P
 # Run: Preferences: Open User Settings (JSON)
 {
-    "dev.containers.gitCredentialHelperConfigLocation": "none",
-    "dev.containers.copyGitConfig": false,
-    "vim.insertModeKeyBindings": [
+   "dev.containers.gitCredentialHelperConfigLocation": "none",
+   "dev.containers.copyGitConfig": false,
+   "vim.insertModeKeyBindings": [
        {
           "before": ["j", "j"],
           "after": ["<Esc>"],
-       } 
+       }
    ],
+   "vim.normalModeKeyBindingsNonRecursive": [
+      {
+         "before": ["J"],
+         "after": ["5", "j"]
+      },
+      {
+         "before": ["K"],
+         "after": ["5", "k"]
+      },
+      {
+         "before": ["H"],
+         "after": ["3", "h"]
+      },
+      {
+         "before": ["L"],
+         "after": ["3", "l"]
+      },
+      ],
    "clangd.path": "/home/alex/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
    "vim.timeout": 50,
    "C_Cpp.intelliSenseEngine": "disabled",
